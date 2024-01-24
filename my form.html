@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="images/assets/css/my%20form.css">
+    <meta charset="UTF-8">
+    <title>My Form</title>
+</head>
+<body>
+<div id="form-container">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email">
+    </div>
+    <div class="form-group">
+        <label for="pass">Password:</label>
+        <input type="password" id="pass">
+    </div>
+    <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+    </div>
+   <div class="form-group">
+        <label>Interest:</label>
+        <input type="checkbox" id="interest1" name="interest1">
+        <label for="interest1">Reading</label>
+         <input type="checkbox" id="interest2" name="interest1">
+        <label for="interest2">coding</label>
+         <input type="checkbox" id="interest3" name="interest1">
+        <label for="interest3">Travelling</label>
+       <input type="checkbox" id="interest4" name="interest1">
+        <label for="interest3">Music</label>
+       <input type="checkbox" id="interest5" name="interest1">
+        <label for="interest3">Swimming</label>
+    </div>
+    <div class="form-group">
+        <label >choose a programming language:</label>
+        <input type="radio" id="lang1" name="lang1" value="Java">
+        <label for="lang1">Java</label>
+        <input type="radio" id="lang2" name="lang" value="KOTLIN">
+        <label for="lang2">KOTLIN</label>
+        <input type="radio" id="lang3" name="lang" value="Javascript">
+        <label for="lang3">Javascript</label>
+        <input type="radio" id="lang4" name="lang" value="Python">
+        <label for="lang4">Python</label>
+    </div>
+   <div class="form-group">
+        <label for="message">Additional Information:</label>
+        <textarea name="message" id="message"></textarea>
+    </div>
+    <div class="form-group">
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>

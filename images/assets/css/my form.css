@@ -1,0 +1,32 @@
+body{
+    font-family: "Ubuntu Light";
+    background-color: #a2a2a2;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-container{
+    background-color: #313131;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1) ;
+    width: 400px;
+}
+.form-group{
+    margin: 16px;
+}
+label{
+    color: #e89666;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+button{
+    background-color: #1f1f1f;
+    color: #e89666;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}

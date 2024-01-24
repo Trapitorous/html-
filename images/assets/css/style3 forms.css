@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+}
+label{
+    float: left;
+    color: #0a0000;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+input a:hover{
+    color: #0002fc;
+}
+input{
+    float: left;
+    color: #501313;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+h1{
+    color: #2bef2b;
+    font-family:Jamrul;
+    font-size: 40px;
+    text-align: center;
+}

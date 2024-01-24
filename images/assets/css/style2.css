@@ -1,0 +1,29 @@
+.fruits{
+    border: 3px solid #0002fc;
+    text-align: center;
+    font-family: AnjaliOldLipi;
+    background-color: indigo;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+.cars{
+    border: 3px solid #ff0303;
+    text-align: center;
+    font-family: "DejaVu Serif";
+    background-color: #643737;
+    margin: 15px;
+    padding: 15px;
+    font-size: 15px;
+}
+#computer{
+    border: 3px solid #0000ff;
+    text-align: center;
+    background-color: #e89666;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+body{
+    background-color: #0a0000;
+}

@@ -1,0 +1,22 @@
+table{
+    width: 100%;
+    margin: auto;
+}
+td, th{
+    border: 2px solid #001362;
+    padding: 10px;
+}
+th{
+    color: #8d072f;
+    text-align: center;
+}
+td{
+    color: chocolate;
+}
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    text-decoration-color: aliceblue;
+}
